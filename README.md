@@ -7,3 +7,11 @@ A modular research assistant that automates academic literature workflows using 
 - **Keyword Extraction** – Uses `KeyBERT` to identify key concepts from papers.
 - **Literature Review Generation** – Synthesizes summaries into a cohesive literature review using custom logic.
 - **Streamlit UI** – Interactive interface to input topics and visualize results.
+
+## Setup & Run
+
+After cloning and activating your virtual environment:
+
+```bash
+pip install streamlit transformers keybert sentence-transformers torch scikit-learn beautifulsoup4 requests nltk
+streamlit run ui.py
